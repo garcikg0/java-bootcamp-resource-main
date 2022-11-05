@@ -1,0 +1,24 @@
+During checkout, the app returns a receipt that includes a subtotal, tax, and total.
+The tax rate is 13%.
+
+               Test Cases
+----------------------------------------
+1. Subtotal equals the sum of every price.
+2. Tax equals 13% of the subtotal.
+3. Total equals subtotal + tax.
+
+
+
+               NOTES
+----------------------------------------
+Test Drive Development: writing tests BEFORE writing code. Good code is easy to test. 
+Bad Design - code isn't modular (performs too many tasks).
+Not Modular = hard to test, vulnerable to bugs, hard to understand, not scalable.
+Test Driven Development (TDD) helps achieve a modular design. 
+Test Driven Development:
+    1. Identify meaningful test cases.
+    2. Write a unit test for each case.
+        - write a test that fails.
+            - make the test pass.
+        - refactor if necessary
+
